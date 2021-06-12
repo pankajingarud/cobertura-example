@@ -44,7 +44,7 @@ string(defaultValue: '', description: 'accept the string', name: 'git_url', trim
              echo "am building"   
               tool name: 'java_home', type: 'jdk'
               tool name: 'maven_home', type: 'maven'
-              sh 'mvn clean install -DskipTests' 
+              sh 'mvn clean install' 
             }
         }
     }
